@@ -1,5 +1,8 @@
-const express = require('express');
-const cors = require('cors');
+// const express = require('express');
+import express  from "express"
+// const cors = require('cors');
+import cors from 'cors'
+import http from "http"
 const app = express();
 const PORT = 3001;
 
@@ -13,6 +16,7 @@ const tableData = [
   { id: 4, name: 'Item 4', quantity: 12, price: 30 },
   { id: 5, name: 'Item 5', quantity: 18, price: 22 },
 ];
+
 
 app.get('/api/table', (req, res) => {
   res.json(tableData);
