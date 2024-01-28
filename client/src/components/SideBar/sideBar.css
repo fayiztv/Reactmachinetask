@@ -2,7 +2,6 @@
   width: 200px;
   height: 100vh;
   background-color: #1f2638;
-  position: fixed;
 }
 .image-column {
   height: 170px;
@@ -40,4 +39,29 @@
 .side-item img {
   margin-right: 10px;
   margin-left: 20px;
+}
+.links-column a{
+  color: white;
+  text-decoration: none;
+}
+.logout{
+  height:25.9%;
+  display: flex;
+  justify-content:center;
+  align-items: end;
+}
+.logout .btn{
+  height:50px;
+  width:100%;
+  border: none;
+  background-color: white;
+  cursor: pointer;
+  color: #C6948E;
+  font-weight:bold;
+  transition: background-color 0.3s;
+}
+
+.btn:hover{
+  background-color: #191f2e;
+  color: white;
 }

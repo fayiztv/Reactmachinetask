@@ -6,8 +6,9 @@ import menu from "../../../../UI/Assets/Circled Menu.png";
 import support from "../../../../UI/Assets/Support.png";
 import plugines from "../../../../UI/Assets/Puzzle.png";
 import help from "../../../../UI/Assets/Help.png";
+import logout from "../../../../UI/Assets/Shutdown.png";
 
-function SideBar({ page }) {
+function SideBar() {
   return (
     <div className="side-bar-main">
       <div className="image-column">
@@ -16,29 +17,35 @@ function SideBar({ page }) {
       </div>
       <div className="links-column">
         <a href="/">
-          <div className={`side-item ${page === "dashboard" && "active"}`}>
+          <div style={{backgroundColor:"white",color:"black"}} className={`side-item`}>
             <img src={menu} alt="" />
             <span>Dashboard</span>
           </div>
         </a>
-        <a href="/">
-          <div className={`side-item ${page === "Support" && "active"}`}>
+        <a href="support">
+          <div className={`side-item`}>
             <img src={support} alt="" />
             <span>Support</span>
           </div>
         </a>
-        <a href="/">
-          <div className={`side-item ${page === "plugines" && "active"}`}>
+        <a href="/plugines">
+          <div className={`side-item`}>
             <img src={plugines} alt="" />
             <span>Plugines</span>
           </div>
         </a>
-        <a href="/">
-          <div className={`side-item ${page === "help" && "active"}`}>
+        <a href="/help">
+          <div className={`side-item`}>
             <img src={help} alt="" />
             <span>Help</span>
           </div>
         </a>
+      </div>
+      <div className="logout">
+        <button className="btn">
+          Logout
+        <img style={{marginLeft:"10px",marginBottom:"-2px"}} src={logout} alt="" />
+        </button>
       </div>
     </div>
   );

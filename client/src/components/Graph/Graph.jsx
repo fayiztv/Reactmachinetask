@@ -15,7 +15,11 @@ function Graph() {
     })();
   }, []);
   
-  return <div>Graph</div>;
+  return (
+    <div className="graph-main">
+      graph
+    </div>
+  )
 }
 
 export default Graph;

@@ -15,7 +15,11 @@ function PieChart() {
     })();
   }, []);
   
-  return <div>PieChart</div>;
+  return (
+    <div className="piechart-main">
+      pie chart
+    </div>
+  )
 }
 
 export default PieChart;

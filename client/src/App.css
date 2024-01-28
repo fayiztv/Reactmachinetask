@@ -45,8 +45,51 @@
   margin: 0 auto;
   padding: 2rem;
   text-align: center; */
-  margin: 0;
+  margin: 0 !important;
   min-width: 320px;
   min-height: 100vh;
+}
+.main-div{
+  height:100vh;
+  width:100vw;
+  display: flex;
+}
+.section-part{
+  width:100vw;
+  display: flex;
+  flex-direction: column;
+  background-color: #E9ECFF;
+  align-items: center;
+}
+.section-part .nav-bar{
+  height:80px;
+  width:90%;
+  display: flex;
+  justify-content: space-between;
+}
+.nav-bar .greeting{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left:10px;
+  margin-top: 30px;
+}
+.nav-bar .profile-div{
+  height:80%;
+  width:180px;
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top:15px;
+  border-radius:15px;
+}
+.profile-div .name{
+  height:50px;
+  margin-right:10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 

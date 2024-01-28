@@ -15,7 +15,11 @@ function Table() {
     })();
   }, []);
 
-  return <div>Table</div>;
+  return (
+    <div className="table-main">
+      table
+    </div>
+  )
 }
 
 export default Table;
