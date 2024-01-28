@@ -2,6 +2,8 @@
   width: 200px;
   height: 100vh;
   background-color: #1f2638;
+  position: fixed;
+  margin-right:300px;
 }
 .image-column {
   height: 170px;
@@ -60,7 +62,6 @@
   font-weight:bold;
   transition: background-color 0.3s;
 }
-
 .btn:hover{
   background-color: #191f2e;
   color: white;

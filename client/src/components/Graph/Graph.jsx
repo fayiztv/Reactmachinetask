@@ -1,8 +1,17 @@
 import React, { useState, useEffect } from "react";
 import axios from "axios";
+import {
+  LineChart,
+  Line,
+  XAxis,
+  YAxis,
+  CartesianGrid,
+  Tooltip,
+  Legend,
+} from "recharts";
 
 function Graph() {
-  const [graph, setGraph] = useState("");
+  const [graphData, setGraph] = useState("");
 
   useEffect(() => {
     (async function () {
@@ -14,12 +23,19 @@ function Graph() {
       }
     })();
   }, []);
-  
+
   return (
-    <div className="graph-main">
-      graph
+    <div style={{marginTop:"20px",marginRight:"50px"}} className="graph-main">
+      <LineChart width={780} height={470} data={graphData}>
+        <CartesianGrid strokeDasharray="3 3" />
+        <XAxis dataKey="x" />
+        <YAxis />
+        <Tooltip />
+        <Legend />
+        <Line type="monotone" dataKey="y" stroke="#A1D2E6" strokeWidth={4} />
+      </LineChart>
     </div>
-  )
+  );
 }
 
 export default Graph;

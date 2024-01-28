@@ -22,15 +22,19 @@ function App() {
               </div>
               <div className="profile-div">
                 <div className="name">
-                  <h3 style={{fontFamily:"monospace",fontWeight:"10",margin:"1px",color:"#1f2638"}}> John Doe </h3>
-                  <p style={{fontFamily:"monospace",margin:"5px",color:"#1f2638"}}> john@doe.com </p>
+                  <h4 style={{fontFamily:"monospace",fontWeight:"10",margin:"1px",color:"#1f2638"}}> John Doe </h4>
+                  <p style={{fontFamily:"monospace",margin:"1px",color:"#1f2638",fontSize:"12px"}}> john@doe.com </p>
                 </div>
-                <img style={{height:"45px",width:"45px"}} src={face} alt="" />
+                <img style={{height:"35px",width:"35px"}} src={face} alt="" />
               </div>
             </div>
             <div className="graphs-div">
+              <div className="graph">
           <Graph/>
+              </div>
+              <div className="chart">
           <PieChart/>
+              </div>
             </div>
             <div className="tables-div">
           <Table/>
