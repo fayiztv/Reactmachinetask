@@ -44,6 +44,16 @@ app.get('/api/graph', (req, res) => {
   res.json(graphData);
 });
 
+
+app.use(
+  cors({
+    origin: [ 
+      "http://localhost:4000",
+    ],
+    credentials: true,
+  })
+);
+
 app.listen(PORT, () => {
   console.log(`Server is running on http://localhost:${PORT}`)
 });
