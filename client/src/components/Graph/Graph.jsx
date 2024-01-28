@@ -11,7 +11,7 @@ import {
 } from "recharts";
 
 function Graph() {
-  const [graphData, setGraph] = useState("");
+  const [graphData, setGraph] = useState([]);
 
   useEffect(() => {
     (async function () {
