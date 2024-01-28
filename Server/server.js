@@ -15,6 +15,11 @@ const tableData = [
   { id: 3, name: 'Item 3', quantity: 8, price: 15 },
   { id: 4, name: 'Item 4', quantity: 12, price: 30 },
   { id: 5, name: 'Item 5', quantity: 18, price: 22 },
+  { id: 6, name: 'Item 6', quantity: 11, price: 26 },
+  { id: 7, name: 'Item 7', quantity: 14, price: 22 },
+  { id: 8, name: 'Item 8', quantity: 19, price: 29 },
+  { id: 9, name: 'Item 9', quantity: 11, price: 20 },
+  { id: 10, name: 'Item 10', quantity: 18, price: 25 },
 ];
 
 

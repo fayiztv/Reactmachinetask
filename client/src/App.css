@@ -98,7 +98,7 @@
 .graphs-div{
   height:500px;
   width:90%;
-  margin-bottom:20px;
+  margin-bottom:50px;
   display: flex;
 }
 .graphs-div .graph{
@@ -113,12 +113,48 @@
   width:30%;
   border-radius:10px;
   box-shadow: 3px 3px 3px rgba(0, 0, 0,0.2);
-
 }
 .tables-div{
-  background-color: rgb(255, 255, 255);
   height:400px;
   width:90%;
-  margin-top:10px;
   margin-bottom:50px;
+  display: flex;
+}
+.tables-div .table{
+  margin-right:20px;
+  background-color: rgb(255, 255, 255);
+  width:100%;
+  border-radius:10px;
+  box-shadow: 3px 3px 3px rgba(0, 0, 0,0.2);
+}
+.tables-div .accounts{
+  background-color: rgb(255, 255, 255);
+  width:30%;
+  border-radius:10px;
+  box-shadow: 3px 3px 3px rgba(0, 0, 0,0.2);
+  margin-right: -35px;
+}
+.accounts .photo{
+  width:100%;
+  height:65%;
+}
+.photo img{
+  width:100%;
+}
+.accounts .texts{
+  margin-top:30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: monospace;
+  font-weight: bold;
+  font-size: larger;
+  display: flex;
+  flex-direction: column;
+}
+.accounts .links{
+  display: flex;
+  justify-content:space-evenly;
+  align-items: center;
+  margin: 0px 40px 0px 40px;
 }
