@@ -25,7 +25,10 @@ function Graph() {
   }, []);
 
   return (
-    <div style={{marginTop:"20px",marginRight:"50px"}} className="graph-main">
+    <div
+      style={{ marginTop: "20px", marginRight: "50px" }}
+      className="graph-main"
+    >
       <LineChart width={780} height={470} data={graphData}>
         <CartesianGrid strokeDasharray="3 3" />
         <XAxis dataKey="x" />

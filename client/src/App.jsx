@@ -71,21 +71,21 @@ function App() {
         </div>
         <div className="tables-div">
           <div className="table">
-          <Table />
+            <Table />
           </div>
           <div className="accounts">
             <div className="photo">
               <img src={user} alt="" />
             </div>
             <div className="texts">
-              <h3 style={{margin:"0"}}>John Doe</h3>
-              <p style={{fontWeight:"lighter"}}>CEO</p>
+              <h3 style={{ margin: "0" }}>John Doe</h3>
+              <p style={{ fontWeight: "lighter" }}>CEO</p>
             </div>
-              <div className="links">
-                <img src={facebook} alt="" />
-                <img src={instagram} alt="" />
-                <img src={twitter} alt="" />
-              </div>
+            <div className="links">
+              <img src={facebook} alt="" />
+              <img src={instagram} alt="" />
+              <img src={twitter} alt="" />
+            </div>
           </div>
         </div>
       </div>

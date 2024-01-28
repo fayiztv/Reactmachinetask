@@ -17,7 +17,10 @@ function SideBar() {
       </div>
       <div className="links-column">
         <a href="/">
-          <div style={{backgroundColor:"white",color:"black"}} className={`side-item`}>
+          <div
+            style={{ backgroundColor: "white", color: "black" }}
+            className={`side-item`}
+          >
             <img src={menu} alt="" />
             <span>Dashboard</span>
           </div>
@@ -44,7 +47,11 @@ function SideBar() {
       <div className="logout">
         <button className="btn">
           Logout
-        <img style={{marginLeft:"10px",marginBottom:"-2px"}} src={logout} alt="" />
+          <img
+            style={{ marginLeft: "10px", marginBottom: "-2px" }}
+            src={logout}
+            alt=""
+          />
         </button>
       </div>
     </div>

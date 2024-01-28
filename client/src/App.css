@@ -1,148 +1,102 @@
-/* #root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
-}
-
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
-}
-
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
-}
-
-.card {
-  padding: 2em;
-}
-
-.read-the-docs {
-  color: #888;
-} */
 #root {
-  /* max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center; */
   margin: 0 !important;
   min-width: 320px;
   min-height: 100vh;
 }
-.main-div{
-  height:auto;
-  width:98.9vw;
+.main-div {
+  height: auto;
+  width: 98.9vw;
   display: flex;
 }
-.section-part{
-  width:100vw;
+.section-part {
+  width: 100vw;
   display: flex;
-  height:auto;
+  height: auto;
   flex-direction: column;
-  background-color: #E9ECFF;
+  background-color: #e9ecff;
   align-items: center;
-  margin-left:180px;
+  margin-left: 180px;
 }
-.section-part .nav-bar{
-  height:70px;
-  width:90%;
+.section-part .nav-bar {
+  height: 70px;
+  width: 90%;
   display: flex;
   justify-content: space-between;
-  margin-bottom:30px;
-  margin-top:15px;
+  margin-bottom: 30px;
+  margin-top: 15px;
 }
-.nav-bar .greeting{
+.nav-bar .greeting {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-left:10px;
+  margin-left: 10px;
 }
-.nav-bar .profile-div{
-  width:150px;
-  height:90%;
+.nav-bar .profile-div {
+  width: 150px;
+  height: 90%;
   background-color: rgb(255, 255, 255);
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-top:15px;
-  border-radius:10px;
+  margin-top: 15px;
+  border-radius: 10px;
 }
-.profile-div .name{
-  height:50px;
-  margin-right:10px;
+.profile-div .name {
+  height: 50px;
+  margin-right: 10px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
-.graphs-div{
-  height:500px;
-  width:90%;
-  margin-bottom:50px;
+.graphs-div {
+  height: 500px;
+  width: 90%;
+  margin-bottom: 50px;
   display: flex;
 }
-.graphs-div .graph{
-  margin-right:35px;
+.graphs-div .graph {
+  margin-right: 35px;
   background-color: rgb(255, 255, 255);
-  width:70%;
-  border-radius:10px;
-  box-shadow: 3px 3px 3px rgba(0, 0, 0,0.2);
+  width: 70%;
+  border-radius: 10px;
+  box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.2);
 }
-.graphs-div .chart{
+.graphs-div .chart {
   background-color: rgb(255, 255, 255);
-  width:30%;
-  border-radius:10px;
-  box-shadow: 3px 3px 3px rgba(0, 0, 0,0.2);
+  width: 30%;
+  border-radius: 10px;
+  box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.2);
 }
-.tables-div{
-  height:400px;
-  width:90%;
-  margin-bottom:50px;
+.tables-div {
+  height: 400px;
+  width: 90%;
+  margin-bottom: 50px;
   display: flex;
 }
-.tables-div .table{
-  margin-right:20px;
+.tables-div .table {
+  margin-right: 20px;
   background-color: rgb(255, 255, 255);
-  width:100%;
-  border-radius:10px;
-  box-shadow: 3px 3px 3px rgba(0, 0, 0,0.2);
+  width: 100%;
+  border-radius: 10px;
+  box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.2);
 }
-.tables-div .accounts{
+.tables-div .accounts {
   background-color: rgb(255, 255, 255);
-  width:30%;
-  border-radius:10px;
-  box-shadow: 3px 3px 3px rgba(0, 0, 0,0.2);
+  width: 30%;
+  border-radius: 10px;
+  box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.2);
   margin-right: -35px;
 }
-.accounts .photo{
-  width:100%;
-  height:65%;
+.accounts .photo {
+  width: 100%;
+  height: 65%;
 }
-.photo img{
-  width:100%;
+.photo img {
+  width: 100%;
 }
-.accounts .texts{
-  margin-top:30px;
+.accounts .texts {
+  margin-top: 30px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -152,9 +106,9 @@
   display: flex;
   flex-direction: column;
 }
-.accounts .links{
+.accounts .links {
   display: flex;
-  justify-content:space-evenly;
+  justify-content: space-evenly;
   align-items: center;
   margin: 0px 40px 0px 40px;
 }

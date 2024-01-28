@@ -16,16 +16,15 @@ function Table() {
     })();
   }, []);
 
-  // Define columns for DataGrid
   const columns = [
-    { field: 'id', headerName: 'ID', width: 90 },
-    { field: 'name', headerName: 'Name', width: 290 },
-    { field: 'quantity', headerName: 'Quantity', width: 290 },
-    { field: 'price', headerName: 'Price', width: 110 },
+    { field: "id", headerName: "ID", width: 90 },
+    { field: "name", headerName: "Name", width: 290 },
+    { field: "quantity", headerName: "Quantity", width: 290 },
+    { field: "price", headerName: "Price", width: 110 },
   ];
 
   return (
-    <div style={{ height: 400, width: '100%' }} className="table-main">
+    <div style={{ height: 400, width: "100%" }} className="table-main">
       <DataGrid
         rows={tableData}
         columns={columns}
@@ -37,7 +36,7 @@ function Table() {
         }}
       />
     </div>
-  )
+  );
 }
 
 export default Table;
